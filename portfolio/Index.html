@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio </title>
+  <link rel="stylesheet" href="./Index.css">
+  <link rel=" stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+</head>
+
+<body>
+  <!---hero section start-->
+  <div class="hero">
+    <nav>
+      <h2 class="logo">Portfo<span>lio</span></h2>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about-us">About Us</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio </a></li>
+        <li><a href="#contact">Contact us</a></li>
+      </ul>
+    </nav>
+    <div class="content" id="home">
+      <h4>Hello,I'am</h4>
+      <h1>Harshal <span>Rathod</span></h1>
+      <h3>I'am a Web Devloper.</h3>
+      
+    </div>
+    <video width="320" height="240" autoplay loop style=" margin-top:100px;margin-left: 700px; height: 500px; width: 500px;">
+      <source src="./images/vd.mp4" type="video/mp4">
+    </video>
+    
+  </div>
+  <!---About Section Start-->
+  <section class="about" id="about-us">
+    <div class="main">
+      <img src="Untitled.png">
+      <div class="about-text">
+        <h2>About Me</h2>
+        <h5>Devloper <span>& Designer</span></h5>
+
+        <p>I am a front-end web devloper. I can provide clean code and pixel perfect design.I also make website more &
+          more interactive with web animations.A resposive design makes your website accessible to all users ,
+          regardless of their device.
+        </p>
+
+        <div class="tab-titles">
+          <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+          <p class="tab-links" onclick="opentab('experience')">Experience</p>
+          <p class="tab-links" onclick="opentab('education')">Education</p>
+
+        </div>
+        <div class="tab-contents active-tab" id="skills">
+          <ul>
+            <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+            <li><span>Web Devlopment</span><br>Web App Devlopment</li>
+            <li><span>Programing Languages</span><br>C/C++,PYTHON</li>
+            <li><span>JavaScrit Libraries</span><br>React,Node,Express</li>
+            <li><span>DataBase</span><br>Mysql,Mongo,Firebase</li>
+
+          </ul>
+
+        </div>
+        <div class="tab-contents" id="experience">
+          <ul>
+            <li><span>2023</span><br>Intern at Prima Think Technologies Pvt Ltd<br>Designed PrimaDiscuss, an real-time
+              application for chats, calls and general discussion using React JS , Node JS and CometChat API. </li>
+
+          </ul>
+
+        </div>
+        <div class="tab-contents" id="education">
+          <ul>
+            <li><span>2020-2024(Present)</span><br>B.TECH from G.H.Rasoni College Of Engineering Nagpur</li>
+            <li><span>2018-2020</span><br>HSC from M.B.Patel Junior College Deori</li>
+            <li><span>2017-2018</span><br>SSC from M.B.Patel High School Deori</li>
+          </ul>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+  <!--services section start-->
+  <div class="service" id="services">
+    <div class="title">
+      <h2>Our Services</h2>
+
+    </div>
+    <div class="box">
+      <div class="card">
+        <i class="fa-solid fa-code"></i>
+        <h5>Web Devlopment</h5>
+        <div class="pra">
+          <p>Every website should be built with two primary goals: Firstly, it needs to wprk across all devices.
+            Secondly, it need to be fast as possible.</p>
+
+          <p style="text-align : center ;">
+            <a type="button" id="button" href="#">Read More</a>
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <i class="fa-regular fa-crop"></i>
+        <h5>UI/UX</h5>
+        <div class="pra">
+          <p>Every website should be built with two primary goals: Firstly, it needs to wprk across all devices.
+            Secondly, it need to be fast as possible.</p>
+
+          <p style="text-align : center ;">
+            <a type="button" id="button" href="#">Read More</a>
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <i class="fa-brands fa-app-store"></i>
+        <h5>App Devlopment</h5>
+        <div class="pra">
+          <p>Every website should be built with two primary goals: Firstly, it needs to wprk across all devices.
+            Secondly, it need to be fast as possible.</p>
+
+          <p style="text-align : center ;">
+            <a id="button" href="#">Read More</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  
+    <!---------Portfolio----------->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title" style="text-align: center;">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/work-1.png">
+            <div class="layer">
+              <h3>Social Media App</h3>
+              <p>The App connects you the talented people around th world.Download it from play store.
+
+              </p>
+              <a href="#"><i class="fas fa-external-link-alt"></i></a>
+
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-2.png">
+            <div class="layer">
+              <h3>Music App</h3>
+              <p>The App connects you the talented people around th world.Download it from play store.
+
+              </p>
+              <a href="#"><i class="fas fa-external-link-alt"></i></a>
+
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-3.png">
+            <div class="layer">
+              <h3>Onlne shopping App</h3>
+              <p>The App connects you the talented people around th world.Download it from play store.
+
+              </p>
+              <a href="#"><i class="fas fa-external-link-alt"></i></a>
+
+            </div>
+          </div>
+        </div>
+
+        <a href="#" class="btn">See more</a>
+      </div>
+
+    </div>
+ 
+    <!--Contact-->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p> <i class="fa-sharp fa-solid fa-paper-plane"></i>harshalrathod396@gmail.com</p>
+            <p> <i class="fa-solid fa-phone"></i>9146316702</p>
+            <div class="social">
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://www.instagram.com/harshal_rathod.15?r=nametag"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/harshal-rathod-15096020b"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="/images/cv-Harshal.pdf" download class="btn btn2" >Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required>
+              <input type="email" name="Email" placeholder="Your Email" required>
+              <textarea name="Massage" rows="6" placeholder="Your Massage"></textarea>
+              <button class="btn btn2" type="submit">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="copyright" >
+        <p>Copyright &copy;  made by  Harshal <i class="fa fa-heart"></i></p>
+      </div>
+    </div>
+
+  </div>
+  
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+      for (tablink of tablinks) {
+        tablink.classList.remove("active-link");
+      }
+
+      for (tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+
+    }
+
+  </script>
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzYDlgTKrM0rf6TmmSXoosIhR5PJ_DI8nyWi4lNHRjlRrYIuJkgq4udcX0oifqPj5QN/exec'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+ </script>
+
+
+</body>
+
+</html>
